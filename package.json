@@ -1,7 +1,7 @@
 {
-	"name": "react-hello-webapp",
+	"name": "programa-eventos",
 	"version": "1.0.1",
-	"description": "",
+	"description": "Simple e-commerce for events",
 	"main": "index.js",
 	"scripts": {
 		"c9": "webpack-dev-server --config webpack.dev.js --host $IP --port $PORT",
@@ -11,8 +11,8 @@
 		"deploy": "node deploy-to-github.js"
 	},
 	"author": {
-		"name": "Alejandro Sanchez",
-		"url": "http://alesanchezr.com/"
+		"name": "Chairon González",
+		"url": "https://github.com/chairon01"
 	},
 	"contributors": [
 		{
