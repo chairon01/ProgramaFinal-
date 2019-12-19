@@ -10,6 +10,8 @@ import "../styles/index.scss";
 
 //import your own components
 import Layout from "./layout";
+//Codigo para usar "Bootstrap" ;)
+import "bootstrap/dist/js/bootstrap.min.js";
 
 //render your react application
 ReactDOM.render(<Layout />, document.querySelector("#app"));
