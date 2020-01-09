@@ -1,0 +1,69 @@
+nav{
+    float: right;
+}
+footer{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.card-1{
+    padding: 50px;
+    text-align: right;
+}
+h2{
+    text-align: center;
+}
+.card-2{
+    padding: 50px;
+    text-align: left;
+}
+.card-3{
+    padding: 50px;
+    text-align: right;
+}
+p{
+    color: black;
+}
+.id{
+    float: right;
+}
+.b{
+color:white;
+}
+.container-1{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 1fr ;
+    
+
+}
+.cell-1 {
+ text-align: center; 
+   
+}
+.cell-2{
+  text-align: justify;
+    
+    padding: 50px;
+
+}
+.container-2{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 1fr ;
+    
+    
+}
+.cell-3{
+float: right;
+ padding: 50px;
+}
+.cell-4{
+text-align: left;
+}
+
+
+
