@@ -1,5 +1,16 @@
-nav{
-    float: right;
+#carouselExampleFade{
+    position: relative;
+}
+.text-carousel-1{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 350px;
+  width: 100%;
+  text-align: center;
+}
+nav{display: inline-block;
 }
 footer{
     background-color: green;
@@ -8,6 +19,7 @@ footer{
 }
 h1{
     text-align: center;
+    font-family: 'Bangers', cursive;
 }
 .card-1{
     padding: 50px;
@@ -25,18 +37,20 @@ h2{
     text-align: right;
 }
 p{
+    font-family: 'Indie Flower', cursive;
     color: black;
 }
 .id{
     float: right;
 }
 .b{
-color:white;
+color: white;
 }
 .container-1{
     display: grid;
     grid-template-columns:1fr 1fr ;
     grid-template-rows: 1fr ;
+    padding: 50px;
     
 
 }
@@ -54,16 +68,21 @@ color:white;
     display: grid;
     grid-template-columns:1fr 1fr ;
     grid-template-rows: 1fr ;
+    padding: 50px;
     
     
 }
 .cell-3{
+text-align: justify; 
 float: right;
  padding: 50px;
 }
 .cell-4{
 text-align: left;
 }
-
-
-
+strong{
+color: white;
+}
+.avila{
+    text-align: left;
+}
