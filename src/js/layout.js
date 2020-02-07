@@ -5,6 +5,7 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
+import { Link } from "react-scroll";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
