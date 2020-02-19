@@ -5,7 +5,7 @@ export const Card = () => (
 		<div className="container">
 			<h1>
 				<i>
-					<big>Servicios</big>
+					<big>Tipos de Eventos</big>
 				</i>
 			</h1>
 			<div className="container-1">

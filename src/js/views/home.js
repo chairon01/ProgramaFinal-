@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/home.scss";
 import { Card } from "../component/Card";
-import { Modal } from "../component/Modal";
+import { Footer } from "../component/footer";
 
 export const Home = () => (
 	<React.Fragment>
@@ -42,6 +42,6 @@ export const Home = () => (
 			</a>
 		</div>
 		<Card />
-		<Modal />
+		<Footer />
 	</React.Fragment>
 );
