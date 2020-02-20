@@ -10,16 +10,8 @@
   width: 100%;
   text-align: center;
 }
-nav{display: inline-block;
-}
-footer{
-    background-color: green;
-    text-align: center;
-    padding: 10px;
-}
-h1{
-    text-align: center;
-    font-family: 'Bangers', cursive;
+nav{
+padding: 30px;
 }
 .card-1{
     padding: 50px;
@@ -50,12 +42,13 @@ color: white;
     display: grid;
     grid-template-columns:1fr 1fr ;
     grid-template-rows: 1fr ;
-    padding: 50px;
+    
     
 
 }
 .cell-1 {
  text-align: center; 
+ padding: 30px;
    
 }
 .cell-2{
@@ -68,17 +61,18 @@ color: white;
     display: grid;
     grid-template-columns:1fr 1fr ;
     grid-template-rows: 1fr ;
-    padding: 50px;
     
     
 }
 .cell-3{
 text-align: justify; 
 float: right;
- padding: 50px;
+ padding: 70px;
 }
 .cell-4{
 text-align: left;
+padding: 30px;
+justify-content: right;
 }
 strong{
 color: white;
@@ -87,4 +81,10 @@ color: white;
     text-align: left;
 }
 .buttom:hover{
+}
+.container-fluid{
+padding: 0px;
+}
+#inicio{
+float: left;
 }

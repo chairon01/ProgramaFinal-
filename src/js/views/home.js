@@ -11,7 +11,7 @@ export const Home = () => (
 					<img src="https://picsum.photos/id/237/1500/700" className="d-block " alt="..." />
 					<div className="text-carousel-1">
 						<h1>
-							<b>ERES GAY </b>
+							<b> LOS MEJORES EVENTOS </b>
 						</h1>
 					</div>
 				</div>
