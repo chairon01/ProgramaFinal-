@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../styles/Modal.scss";
 
 export const Modal = () => {
@@ -13,14 +13,19 @@ export const Modal = () => {
 		suscribir: false
 	});
 	const handleChange = e => {
-		console.log(e.target.name, " ", e.target.value);
+		console.log(formulario);
 		setFormulario({
 			...formulario,
 			[e.target.name]: e.target.value
 		});
 	};
 	const handleSubmit = e => {
-		e.preventDefault();
+		e.preventDefault(async);
+		fetch("https://3000-d415e7f7-0e38-4486-89a6-1126a2318877.ws-us02.gitpod.io/presupuesto"),
+			{
+				method: "POST",
+				formulario
+			};
 	};
 	return (
 		<React.Fragment>

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
+import { Card } from "./component/Card";
 import { Modal } from "./component/Modal";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
@@ -25,7 +26,7 @@ export const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/servicios" component={Modal} />
+						<Route path="/presupuesto" component={Modal} />
 						<Route path="/getState" component={Demo} />
 						<Route path="/single/:theid" component={Single} />
 						<Route render={() => <h1>Not found!</h1>} />
