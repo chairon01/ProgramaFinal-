@@ -5,10 +5,15 @@ import { Footer } from "../component/footer";
 
 export const Home = () => (
 	<React.Fragment>
+		{/*Inicio del Carousel */}
 		<div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
 			<div className="carousel-inner">
 				<div className="carousel-item active">
-					<img src="https://picsum.photos/id/237/1500/700" className="d-block " alt="..." />
+					<img
+						src="https://images.pexels.com/photos/2078071/pexels-photo-2078071.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1400"
+						className="d-block "
+						alt="..."
+					/>
 					<div className="text-carousel-1">
 						<h1>
 							<b> LOS MEJORES EVENTOS </b>
@@ -16,7 +21,11 @@ export const Home = () => (
 					</div>
 				</div>
 				<div className="carousel-item">
-					<img src="https://picsum.photos/seed/picsum/1500/700" className="d-block " alt="..." />
+					<img
+						src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1400"
+						className="d-block "
+						alt="..."
+					/>
 					<div className="text-carousel-1">
 						<h1>
 							<b>SOMOS TU SOLUCIÓN PARA TUS EVENTOS </b>
@@ -24,7 +33,11 @@ export const Home = () => (
 					</div>
 				</div>
 				<div className="carousel-item">
-					<img src="https://picsum.photos/1500/700?grayscale" className="d-block " alt="..." />
+					<img
+						src="https://images.pexels.com/photos/2111015/pexels-photo-2111015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1400"
+						className="d-block "
+						alt="..."
+					/>
 					<div className="text-carousel-1">
 						<h1>
 							<b>CELEBRALO TODO</b>
@@ -41,7 +54,12 @@ export const Home = () => (
 				<span className="sr-only">Próximo</span>
 			</a>
 		</div>
+		{/*Fin del Carousel */}
+		{/*Inicio del componente Card*/}
 		<Card />
+		{/*Fin del componente Card */}
+		{/*Inicio del componente Footer */}
 		<Footer />
+		{/*Fin del componente Footer*/}
 	</React.Fragment>
 );

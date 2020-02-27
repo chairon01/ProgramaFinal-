@@ -11,8 +11,9 @@
   text-align: center;
 }
 nav{
-padding: 30px;
+padding: 100px;
 background-color: #3eae32 !important;
+border-bottom: 2px solid white;
 
 }
 .card-1{
@@ -44,9 +45,9 @@ color: white;
     display: grid;
     grid-template-columns:1fr 1fr ;
     grid-template-rows: 1fr ;
-    
-    
-
+    text-align: justify;
+    padding: 70px;
+    justify-content: right;
 }
 .cell-1 {
  text-align: center; 
@@ -54,10 +55,9 @@ color: white;
    
 }
 .cell-2{
-  text-align: justify;
-    
-    padding: 50px;
-
+  text-align: justify; 
+float: left;
+ padding: 70px;
 }
 .container-2{
     display: grid;
@@ -89,4 +89,12 @@ padding: 0px;
 }
 #inicio{
 float: left;
+}
+i{
+    justify-content: center !important;
+}
+.card-text-1{
+    background-color: rgba($color: white, $alpha: 0.6);
+    padding: 3rem;
+    border-radius: 1rem;
 }

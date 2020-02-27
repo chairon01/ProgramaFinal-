@@ -5,6 +5,7 @@ import { Modal } from "../component/Modal";
 export const Navbar = () => {
 	return (
 		<React.Fragment>
+			{/*Inicio del Navbar*/}
 			<nav className="nav justify-content-end navbar navbar-expand-lg navbar-light ">
 				<a href="/" className="inicio">
 					<strong>Avila Eventos</strong>
@@ -19,12 +20,12 @@ export const Navbar = () => {
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="btn btn-outline-success nav-link" href="/presupuesto">
+								<a className="nav-link" href="/presupuesto">
 									<strong>Planificaciòn de Eventos</strong>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#contacto1">
+								<a className="nav-link" href="/servicios">
 									<strong>Servicios</strong>
 								</a>
 							</li>
@@ -32,6 +33,7 @@ export const Navbar = () => {
 					</div>
 				</div>
 			</nav>
+			{/*Fin del Navbar*/}
 		</React.Fragment>
 	);
 };

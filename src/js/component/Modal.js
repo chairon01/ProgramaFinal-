@@ -21,11 +21,13 @@ export const Modal = () => {
 	};
 	const handleSubmit = e => {
 		e.preventDefault(async);
-		fetch("https://3000-d415e7f7-0e38-4486-89a6-1126a2318877.ws-us02.gitpod.io/presupuesto"),
-			{
-				method: "POST",
-				formulario
-			};
+		fetch("https://3000-d415e7f7-0e38-4486-89a6-1126a2318877.ws-us02.gitpod.io/presupuesto", {
+			method: "POST",
+			Headers: {
+				"Content-Type": "application/JSON"
+			},
+			body: JSON.stringify(formulario)
+		});
 	};
 	return (
 		<React.Fragment>
