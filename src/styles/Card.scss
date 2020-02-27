@@ -52,3 +52,16 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallax-3 {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/1157557/pexels-photo-1157557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1350");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
