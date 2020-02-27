@@ -3,10 +3,13 @@ import React from "react";
 export const Servicios = () => (
 	<React.Fragment>
 		{/* Esto es un Jumbotron */}
+
 		<div className="total-div">
-			<div className="jumbotron jumbotron-fluid #hola">
-				<div className="container-fluid">
-					<h1 className="display-4">Tipos de Servicios </h1>
+			<div className="parallax-3">
+				<div className="jumbotron jumbotron-fluid #hola">
+					<div className="container-fluid">
+						<h1 className="display-4">Tipos de Servicios </h1>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -16,7 +19,7 @@ export const Servicios = () => (
 			<div className="row">
 				<div className="col-md-4">
 					<img
-						src="https://images.pexels.com/photos/860538/pexels-photo-860538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+						src="https://images.pexels.com/photos/860538/pexels-photo-860538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000"
 						className="card-img-top"
 						alt="..."
 					/>

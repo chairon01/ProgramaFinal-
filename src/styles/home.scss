@@ -57,7 +57,7 @@ color: white;
 .cell-2{
   text-align: justify; 
 float: left;
- padding: 70px;
+ padding: 50px;
 }
 .container-2{
     display: grid;
@@ -69,7 +69,7 @@ float: left;
 .cell-3{
 text-align: justify; 
 float: right;
- padding: 70px;
+ padding: 50px;
 }
 .cell-4{
 text-align: left;
@@ -97,4 +97,7 @@ i{
     background-color: rgba($color: white, $alpha: 0.6);
     padding: 3rem;
     border-radius: 1rem;
+}
+.jumbotron-fluid{
+    
 }
