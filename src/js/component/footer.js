@@ -5,7 +5,7 @@ export const Footer = () => (
 	<React.Fragment>
 		{/*Inicio del Footer */}
 		<footer className="footer">
-			<div className="container">
+			<div className="container-">
 				<div className="row">
 					<p>
 						<strong>
@@ -13,6 +13,7 @@ export const Footer = () => (
 							Todos los derechos reservados
 						</strong>
 					</p>
+
 					<div>
 						<a href="https://www.instagram.com/avila_eventos/?hl=es-la" className="fa fa-instagram" />
 						<a href="https://www.facebook.com" className="fa fa-facebook" />

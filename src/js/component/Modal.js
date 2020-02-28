@@ -3,7 +3,7 @@ import "../../styles/Modal.scss";
 import { useHistory } from "react-router-dom";
 
 export const Modal = () => {
-	let history = useHistory;
+	let history = useHistory();
 	const [formulario, setFormulario] = useState({
 		name: "",
 		email: "",
@@ -25,7 +25,7 @@ export const Modal = () => {
 	const handleSubmit = async e => {
 		e.preventDefault();
 		console.log(formulario);
-		let response = await fetch("https://3000-c95b9d80-7a4a-47e1-8d49-e5bb779943e1.ws-us02.gitpod.io/presupuesto", {
+		let response = await fetch("https://3000-d415e7f7-0e38-4486-89a6-1126a2318877.ws-us02.gitpod.io/presupuesto", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/JSON"
